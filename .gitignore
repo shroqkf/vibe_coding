@@ -15,3 +15,6 @@
 next-env.d.ts
 .vercel
 /_to_delete/
+
+# Docs
+/docs/superpowers
