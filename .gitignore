@@ -6,6 +6,12 @@
 # OS / 에디터
 .DS_Store
 
+# Claude Code 로컬 도구 상태 (워크트리 등 — 시크릿이 포함될 수 있어 공유하지 않음)
+/.claude
+
+# 로컬 상태 (관심종목 등)
+/data
+
 # Next.js / 의존성
 /node_modules
 /.next/

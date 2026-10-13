@@ -15,12 +15,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="bg-slate-50 text-slate-900 antialiased">
+      <body className="bg-toss-gray-100 font-sans text-toss-gray-900 antialiased">
         <div className="flex min-h-screen">
           <Sidebar />
           <div className="flex flex-1 flex-col">
             <Header />
-            <main className="flex-1 p-6">{children}</main>
+            <main className="flex-1 px-6 py-8 sm:px-10">{children}</main>
           </div>
         </div>
       </body>
